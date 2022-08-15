@@ -1,0 +1,392 @@
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+.h_u {
+  width: 3rem;
+  background-color: #d10f36;
+  margin: 2rem auto;
+  height: 0.3rem;
+}
+
+.svg-inline--fa {
+  color: #d10f36;
+}
+
+.heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.navbar {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.navbar .navbar-brand {
+  height: 2rem;
+}
+.navbar .navbar-nav li {
+  padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link.active, .navbar-dark .navbar-nav .nav-item .nav-link:hover {
+  color: #d10f36;
+}
+
+.icon-nav {
+  max-width: 130px;
+  border-radius: 20px 20px 20px 20px;
+  padding: 0;
+  margin: 0;
+}
+
+#landing {
+  background-image: url("../images/carousel1.jpg");
+  background-size: cover;
+  height: 100%;
+  margin-top: -22px;
+  margin-bottom: 25px;
+  color: white;
+  background-attachment: fixed;
+}
+
+#landing .header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #303952;
+    z-index: 1;
+    opacity: .35;
+}
+
+#landing .icon-header {
+  max-width: 200px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+#landing .home-wrap .caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  bottom: 38%;
+  z-index: 1;
+  text-transform: uppercase;
+}
+#landing .home-wrap .caption h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  letter-spacing: 0.3rem;
+  padding-bottom: 0.6rem;
+}
+@media (min-width: 600px) and (max-width: 1023px) {
+  #landing .home-wrap .caption h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+  }
+}
+@media (min-width: 1024px) {
+  #landing .home-wrap .caption h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
+#landing .home-wrap .caption h3 {
+  text-shadow: 0.1rem 0.1rem 0.5rem black;
+  font-size: 1rem;
+  padding-bottom: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+@media (min-width: 600px) and (max-width: 1023px) {
+  #landing .home-wrap .caption h3 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  #landing .home-wrap .caption h3 {
+    font-size: 2.4rem;
+  }
+}
+#landing .home-wrap .caption .btn {
+  border-width: medium;
+  border-radius: 0 !important;
+  padding: 0.5rem 1rem;
+  font-size: 1rem !important;
+}
+
+.offset {
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+#history {
+  padding: 20px;
+}
+
+.narrow {
+  width: 75%;
+  margin: 1.7rem auto !important;
+  padding-top: 2rem;
+}
+.narrow h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1.2rem 0;
+}
+@media (min-width: 600px) and (max-width: 1023px) {
+  .narrow h1 {
+    font-size: 1.9rem;
+    margin: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .narrow h1 {
+    font-size: 2.2rem;
+    margin: 1.8rem;
+  }
+}
+.narrow h1 p {
+  font-size: 0.8rem !important;
+}
+.narrow .btn-secondary {
+  background-color: #d10f36;
+  border-width: medium;
+  padding: 0.3rem 0.6rem;
+  border-color: #d10f36;
+  border-radius: 0;
+  font-size: 1rem;
+  margin: 1rem;
+}
+@media (min-width: 600px) and (max-width: 1023px) {
+  .narrow .btn-secondary {
+    font-size: 1.3rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+@media (min-width: 1024px) {
+  .narrow .btn-secondary {
+    font-size: 1.5rem;
+    padding: 0.6rem 0.9rem;
+  }
+}
+.narrow .btn-secondary:hover {
+  background-color: #8f1534;
+  border-color: #8f1534;
+}
+
+.jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../images/9i.jpg") center center no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+  padding: 2rem 0 3.2rem;
+  border-radius: 0;
+  background-attachment: fixed;
+}
+.jumbotron h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.jumbotron p {
+  font-size: 1.1rem;
+}
+
+.card {
+   background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+   background-size:cover;
+   border-radius: 20px 20px 20px 20px;
+}
+
+.card-alter {
+  background: linear-gradient(rgba(.5, 0, .5, 0), rgba(.9, 0, 0, .3));
+  background-size:cover;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.audio-control {
+  width:100%;
+  padding: 10px;
+}
+
+.button-Read {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: #8f1534;
+  border: 1px solid #8f1534;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+
+.button-Read:hover {
+  box-shadow: none;
+  background-color: #8f1534;
+  color: white;
+  transition:cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+/*.card-body:hover {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2%);
+}*/
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+#box h2 {
+  padding-top: 40px;
+}
+
+#box h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#resources .fixed-back {
+  background: url("../images/carousel3.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+}
+#resources .dark {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5rem 0;
+}
+#resources h3 {
+  margin-bottom: 2rem;
+}
+#resources p {
+  margin: 2rem 0;
+}
+#resources .card-how {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+  background-size:cover;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 40px;
+}
+
+/*-----------------------------------------------------OUR PARTNERS------------------------------------------------*/
+#partners {
+  padding: 50px 0px 150px 0px;
+}
+
+.center-carousel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client {
+  justify-content: center;
+  align-items: center;
+}
+
+.client img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+#us {
+  background: url("../images/bg1.jpeg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+@media (min-width: 1024px) {
+  .client img {
+    margin: 2rem 0;
+    width: 100%;
+  }
+}
+.client blockquote {
+  width: 100%;
+  margin: 1rem;
+}
+.client blockquote .svg-inline--fa {
+  margin: 0.5rem;
+}
+.client blockquote p {
+  width: 90%;
+  margin: 0 auto;
+}
+.client hr {
+  border-top: 0.2rem solid #d10f36;
+}
+
+#map {
+  width: 90%;
+  height: 90%;
+}
+
+footer {
+  background-color: #282828;
+  color: white;
+  padding: 3rem 0 0;
+  margin-top: 3.4rem;
+}
+footer b {
+  font-size: 1.4rem;
+}
+@media (min-width: 600px) and (max-width: 1023px) {
+  footer b {
+    font-size: 1.7rem;
+  }
+}
+@media (min-width: 1024px) {
+  footer b {
+    font-size: 2rem;
+  }
+}
+footer b {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+footer .icon-nav {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+footer p {
+  margin: 1.2rem 0;
+  font-size: 1rem !important;
+}
+footer a {
+  color: white;
+}
+footer .svg-inline--fa {
+  color: white;
+  font-size: 1.8rem;
+  margin: 1rem 0.4rem;
+}
+footer .svg-inline--fa:hover {
+  color: #d10f36;
+}
+footer .socket {
+  width: 100%;
+  border-top: 0.1rem solid #aaa;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
