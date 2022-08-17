@@ -11,6 +11,8 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+		<script src="/js/services.js"></script>
 		<script src="/js/maps.js"></script>
 		<script src="/js/read_more.js"></script>
 	</head>
@@ -69,8 +71,8 @@
 					<div class="home-inner">
 						<div class="header-overlay"></div>
 							<div class="caption text-center">
-								<h1>Somos <span><img class="icon-header" src="images/LOGO2.jpg" alt="Icon"/></span></h1> 
-								<h3>Más que hacer negocios, creamos relaciones</h3>
+								<h1 class="animate__animated animate__bounce">Somos <span><img class="icon-header" src="images/LOGO2.jpg" alt="Icon"/></span></h1> 
+								<h3 class="animate__animated animate__bounce">Más que hacer negocios, creamos relaciones</h3>
 								<a href="#features" class="btn btn-outline-light ">Servicios</a>
 							</div>
 					</div>
@@ -114,49 +116,7 @@
 					<h3 class="heading text-white">Nuestros Servicios</h3>
 					<div class="h_u"></div>
 				</div>
-				<div class="row text-center">
-					<div class="col-md-4 ">
-						<div class="card">
-							<div class="narrow">
-								<i class="fa fa-music fa-4x" data-fa-transform="shrink-3 up-3"></i>
-								<h3 class="text-white">Audios para Centrales Telefónicas y Sistemas de Comunicación.</h3>
-								<audio class="audio-control" controls>
-									<source src="Audios/BQ1 - Audi.mp3" type="audio/mp3">
-								</audio>
-								<audio class="audio-control" controls>
-									<source src="Audios/BQ1 - ADR CENTER.mp3" type="audio/mp3">
-								</audio>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 ">
-						<div class="card">
-							<div class="narrow">
-								<i class="fa fa-music fa-4x" data-fa-transform="shrink-3 up-3"></i>
-								<h3 class="text-white">Producción profesional de todo tipo de audios, para usos comerciales.</h3>
-								<audio class="audio-control" controls>
-									<source src="Audios/BQ2 - Honda Motors.mp3" type="audio/mp3">
-								</audio>
-									<audio class="audio-control" controls>
-								<source src="Audios/BQ2 - Programa Valor.mp3" type="audio/mp3">
-								</audio>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 ">
-						<div class="card">
-							<div class="narrow">
-								<i class="fa fa-music fa-4x" data-fa-transform="shrink-3 up-3"></i>
-								<h3 class="text-white">Elaboración de audios para usos virtuales y páginas o ambientes Web.</h3>
-								<audio class="audio-control" controls>
-									<source src="Audios/BQ3 - ASO.mp3" type="audio/mp3">
-								</audio>
-								<audio class="audio-control" controls>
-									<source src="Audios/BQ3 - PAYSER.mp3" type="audio/mp3">
-								</audio>
-							</div>
-						</div>
-					</div>
+				<div class="row text-center" id="services-container">
 				</div>
 			</div>
 		</div>
