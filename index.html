@@ -5,12 +5,14 @@
 		<meta content="keywords" name="Audios, Grabación, Studio, Negocios, Empresarial, Producción, Mezcla, Música, Voz, Centrales, Telefónicas, MP3, MP4, Costa Rica, San José" />
 		<meta content="description" name="Sitio Web para la empresa SERPROEX (Servicios Promocionales Exclusivos)" />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="icon" href="images/LOGO.ico">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/all.min.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="/js/maps.js"></script>
+		<script src="/js/read_more.js"></script>
 	</head>
 
 	<body data-spy="scroll" data-target="#mynav">
@@ -181,12 +183,13 @@
 								<p>Implemente su esfuerzo de mercadeo a sus líneas telefónicas o celulares. Por 
 								medio de pequeños mensajes producidos profesionalmente y económicamente muy convenientes, 
 								puede recordar a sus contactos sus servicios, promociones o productos, enviándoles el detalle 
-								o bien
-								<span class="hide" id="hideText"> que lo escuchen brevemente cuando le contactan. Puede utilizarse para dar avisos, 
-								noticias y otros.Página de información de contacto: Debe mostrar información de contacto sobre
-								el dueño de la página y habilitar un formulario en html para registro y envío de los datos 
-								por medio email, debe considerar como mínimo.</span></p>
-								<button class="button-Read btn mt3" id="hideText_btn">Leer más</button> 
+								o bien<span id="dots">...</span><span id="more">que lo escuchen brevemente cuando le contactan. 
+								Puede utilizarse para dar avisos, noticias y otros.Página de información de contacto:
+								Debe mostrar información de contacto sobre el dueño de la página y habilitar un 
+								formulario en html para registro y envío de los datos por medio email, debe 
+								considerar como mínimo.</span></p>
+								<!---<button class="button-Read btn mt3" id="hideText_btn">Leer más</button>--->
+								<button class="button-Read btn mt3" onclick="myFunction()" id="myBtn">Leer más</button> 
 							</div>
 						</div>
 					</div>
@@ -199,11 +202,10 @@
 								<h3>Radio Personalizadas</h3>
 								<p>Hoy día es muy común poseer emisoras de radio virtuales propias que pueden sintonizarse en los 
 								diferentes locales de una cadena comercial o recomendarla a sus clientes para mantenerles 
-								informados. SERPROEX le ayuda desde cero a crearla de tal forma que pueda 
-								<span class="hide" id="hideText2">inclusive ambientar 
-								su sitio de trabajo durante las horas de labor, elaborada a 
-								su medida y gusto.</span></p>
-								<button class="button-Read btn mt3" id="hideText_btn2">Leer más</button> 
+								informados. SERPROEX le ayuda desde cero a crearla de tal forma que 
+								pueda<span id="dots1">...</span><span id="more1">inclusive ambientar su sitio de 
+								trabajo durante las horas de labor, elaborada a su medida y gusto.</span></p>
+								<button class="button-Read btn mt3" onclick="myFunction1()" id="myBtn1">Leer más</button> 
 							</div>
 						</div>
 					</div>
@@ -216,9 +218,9 @@
 								<h3>Producción Perifonéo</h3>
 								<p>¿Requiere producir un archivo que se pueda utilizar en la contratación de un servicio de 
 								perifoneo en determinada zona? Nosotros se lo creamos. El archivo va completo con su respectiva 
-								locución y música y el Perifoneo que contrate solo se debe reproducirlo en su equipo de forma 
-								<span class="hide" id="hideText3"> continua (que se repita indefinidamente).</span></p>
-								<button class="button-Read btn mt3" id="hideText_btn3">Leer más</button> 
+								locución y música y el Perifoneo que contrate solo se debe reproducirlo en su equipo de 
+								forma<span id="dots2">...</span><span id="more2">continua (que se repita indefinidamente).</span></p>
+								<button class="button-Read btn mt3" onclick="myFunction2()" id="myBtn2">Leer más</button>
 							</div>
 						</div>
 					</div>
@@ -232,11 +234,11 @@
 								<p>Como su nombre lo indica, se trata de mensajes que se implementan en sus sistemas de sonido 
 								local que combinados con música logran el objetivo de simular la presencia de un locutor que 
 								está promoviendo sus productos y/o servicios en forma de motivación ambiental.  
-								<span class="hide" id="hideText4">Muy efectivo y económicamente conveniente porque usted tiene total 
+								<span id="dots3"></span><span id="more3">Muy efectivo y económicamente conveniente porque usted tiene total 
 								control de cuándo y en qué cantidad desea que suenen las promociones para informar a los 
 								clientes que le visitan o  inclusive transeúntes. 
 								También pueden usarse para eventos especiales y/o fechas específicas.</span></p>
-								<button class="button-Read btn mt3" id="hideText_btn4">Leer más</button> 
+								<button class="button-Read btn mt3" onclick="myFunction3()" id="myBtn3">Leer más</button>
 							</div>
 						</div>
 					</div>
